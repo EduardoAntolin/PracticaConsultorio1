@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PracticaConsultorio
 {
-    class Consulta
+    public class Consulta
     {
         public Paciente PacienteActual { get; set; }
         public string Sintomas { get; set; }

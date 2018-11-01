@@ -8,7 +8,7 @@
         Title="HistorialConsultasWindow" Height="516" Width="559.043">
     <Grid Margin="0,0,2,0">
         <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Nombre:" VerticalAlignment="Top"/>
-        <TextBlock HorizontalAlignment="Left" Margin="10,31,0,0" TextWrapping="Wrap" Text="Nombre del paciente: " VerticalAlignment="Top"/>
+        <TextBlock x:Name="lblNombrePaciente" HorizontalAlignment="Left" Margin="10,31,0,0" TextWrapping="Wrap" Text="Nombre del paciente: " VerticalAlignment="Top"/>
         <ScrollViewer HorizontalAlignment="Left" Height="410" Margin="10,65,0,0" VerticalAlignment="Top" Width="529">
             <StackPanel Name="stckHistorialConsultas"/>
         </ScrollViewer>
